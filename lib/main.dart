@@ -8,7 +8,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+  // comment
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
@@ -19,4 +19,4 @@ class MyApp extends StatelessWidget {
       routerConfig: router,
     );
   }
-} 
+}
