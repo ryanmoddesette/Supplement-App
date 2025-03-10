@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Supplement App',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.dark,
       routerConfig: router,
     );
   }
